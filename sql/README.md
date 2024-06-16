@@ -1,5 +1,5 @@
 # Solution
-During 6 hours that I worked on this task, I managed to finish all of them except task numebr 6, which is not created fully (percentiles are not finished).
+During around 6 hours that I worked on this task, I managed to finish all of them except task number 6, which is not created fully (percentiles are not finished).
 ### Why SQL
 I've decided to choose SQL instead of Python (even though I feel much more confident in Python) as those tasks seemed like a good case for SQL:
 - Almost all of them are simple enough to be defined by a short SQL script.
