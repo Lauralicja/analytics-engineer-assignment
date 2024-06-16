@@ -5,13 +5,13 @@ I've decided to choose SQL instead of Python (even though I feel much more confi
 - Almost all of them are simple enough to be defined by a short SQL script.
 - Scripts can be scheduled and ran on the database in various ways (scheduled queries, operators, ...)
 - In case of collaboration with Data Analysts it would also provide for a better environment to collaborate.
+- Description of the task and `sql` directory suggested this language a bit
 - I wanted to excercise my SQL skill :)
 
 In case of data manipulations being too complex, I'd resort to creating a python connector that would connect to the database, do the calculations required and then sink those into the database, pseudocode below:
 ```
 import sqlite3
 import pandas as pd
-from numpy import percentile
 				
 db = sqlite3.connect(‘assignment.db’)							
 df = pd.read_sql_query("SELECT * FROM event_clean ... ", db)
@@ -37,3 +37,5 @@ In SQLite there is not enough analytics functions to calculate that with ease - 
 
 With python those would be easily calculated, with more features to be easily added in the future.
 Although for batch load it would require to be scheduled differently than SQL (Airflow operators would not suffice as the data may take up too much space).
+
+In general for my work I prefer using python.
