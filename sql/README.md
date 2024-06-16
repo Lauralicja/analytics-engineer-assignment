@@ -42,3 +42,6 @@ In general for my work I prefer using python.
 
 Task 7 is mimicked in `Makefile`.
 This behavior would be scheduled via any orchestrating tool.
+
+
+There is a typo in the `create-empty-table.sql` file for which I posted a PR to fix.
