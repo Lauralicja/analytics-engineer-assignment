@@ -23,8 +23,3 @@ CREATE TABLE event_raw(
     user_session TEXT
 );
 
--- .mode csv
--- .import --skip 1 data/2020-Jan.csv event_raw
--- .import data/2020-Jan.csv event_raw
--- skip not implemented before 3.31 XD
-
