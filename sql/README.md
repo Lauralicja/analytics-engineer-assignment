@@ -39,3 +39,6 @@ With python those would be easily calculated, with more features to be easily ad
 Although for batch load it would require to be scheduled differently than SQL (Airflow operators would not suffice as the data may take up too much space).
 
 In general for my work I prefer using python.
+
+Task 7 is mimicked in `Makefile`.
+This behavior would be scheduled via any orchestrating tool.
