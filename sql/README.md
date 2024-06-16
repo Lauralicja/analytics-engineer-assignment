@@ -36,4 +36,4 @@ In SQLite there is not enough analytics functions to calculate that with ease - 
 | 2020-01-31 | 256      | 1.0       | 
 
 With python those would be easily calculated, with more features to be easily added in the future.
-Although for batch load it would require to be scheduled differently than SQL (Airflow oeprators would not suffice as the data may take up too much space).
+Although for batch load it would require to be scheduled differently than SQL (Airflow operators would not suffice as the data may take up too much space).
